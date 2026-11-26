@@ -1,0 +1,10 @@
+services:
+  krypton:
+    image: ghcr.io/raysonlee11/krypton-crypto:latest
+    build: .
+    ports:
+      - "2222:22"
+    environment:
+      # optional: fixed flag for scoring; random if omitted
+      - FLAG=FLAG{change_me}
+    restart: unless-stopped

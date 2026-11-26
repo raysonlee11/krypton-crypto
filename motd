@@ -1,0 +1,15 @@
+
+  _  __                 _
+ | |/ /_ __ _   _ _ __ | |_ ___  _ __
+ | ' /| '__| | | | '_ \| __/ _ \| '_ \
+ | . \| |  | |_| | |_) | || (_) | | | |
+ |_|\_\_|   \__, | .__/ \__\___/|_| |_|
+            |___/|_|        cryptography wargame
+
+  Levels live in /krypton/<username>/   ->  start with: cat README
+  Passwords for each level are stored in /etc/krypton_pass/<level>
+  (only that level's user can read its own file).
+
+  Log in to the next level:  ssh kryptonN+1@localhost
+  Tools: python3, xxd, base64, tr, sort, uniq, fold ...
+
