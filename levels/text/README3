@@ -1,0 +1,17 @@
+Krypton level 3 -> 4
+====================
+We intercepted "krypton4.enc" (hex encoded). It was encrypted by XOR-ing the
+plaintext with a short secret key that is repeated over and over.
+
+Our agents report that every transmission begins with the header:
+
+    KRYPTON TRANSMISSION
+
+ciphertext XOR plaintext = key.  Recover the key, then decrypt everything.
+
+Hints:
+  xxd -r -p krypton4.enc | xxd        # view the raw bytes
+  python3: bytes.fromhex(...), a ^ b, and the % operator for repeating keys.
+  The key is shorter than the header - look for the point where it repeats.
+
+Next:  ssh krypton4@localhost

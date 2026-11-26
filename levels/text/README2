@@ -1,0 +1,19 @@
+Krypton level 2 -> 3
+====================
+"krypton3" is an English message encrypted with the Vigenere cipher.
+The key is a short word of UPPERCASE letters; its length is unknown
+(somewhere between 4 and 10). All spaces and punctuation were removed and
+the ciphertext was split into groups of five letters - ignore the spaces.
+
+The password for krypton3 is spelled out letter by letter near the end
+of the message.
+
+Hints:
+  1. Find the key length: Kasiski examination (distances between repeated
+     trigrams) or the Index of Coincidence (~0.066 for English, ~0.038 random).
+  2. Once you know the length L, every L-th letter was shifted by the same
+     amount -> each column is just a Caesar cipher. Use frequency analysis:
+     the most common letter in English is E.
+  3. python3 is installed. collections.Counter is your friend.
+
+Next:  ssh krypton3@localhost

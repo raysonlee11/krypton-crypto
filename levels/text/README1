@@ -1,0 +1,12 @@
+Krypton level 1 -> 2
+====================
+The file "krypton2" was encrypted with a Caesar cipher: every letter was
+shifted by the same (unknown) amount through the alphabet. Spaces and
+punctuation were left alone.
+
+There are only 25 possible keys. Try them all.
+
+Hint : tr 'A-Z' 'N-ZA-M' shifts by 13. How would you shift by 3? by 7?
+       A short loop in bash or python3 can try every shift for you.
+
+Next:  ssh krypton2@localhost

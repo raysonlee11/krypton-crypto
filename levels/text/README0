@@ -1,0 +1,10 @@
+Welcome to Krypton!  (level 0 -> 1)
+===================================
+The file "krypton1" in this directory holds the password for the next level.
+It is not encrypted - it is only ENCODED. Encoding just changes how data is
+represented; anyone who recognises the format can reverse it.
+
+Hint : look at the character set. A-Z a-z 0-9 + / and maybe '=' at the end?
+Tools: base64, man base64
+
+When you have the password:   ssh krypton1@localhost

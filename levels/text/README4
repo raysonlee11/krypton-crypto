@@ -1,0 +1,11 @@
+Congratulations - you made it through Krypton!
+==============================================
+What you learned:
+  0  Encoding (base64) is NOT encryption.
+  1  Caesar: a 25-key space can be brute forced in milliseconds.
+  2  Vigenere: a repeating key leaks its length; then it is just Caesar again.
+  3  Repeating-key XOR: one known plaintext fragment reveals the whole key.
+
+Modern ciphers (AES, ChaCha20) are designed so none of these attacks work.
+
+Your flag:  cat flag.txt
